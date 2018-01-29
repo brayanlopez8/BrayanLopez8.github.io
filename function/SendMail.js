@@ -81,8 +81,8 @@ function done(message) {
 };
 
 function ClearControls() {
-    $('#TxtMailName').val() = "";
-    $('#TxtMailEmail').val() = "";
-    $('#TxtMailSubject').val() = "";
-    $('#TxtMailMessage').val() = "";
+    $('#TxtMailName').val('');
+    $('#TxtMailEmail').val('');
+    $('#TxtMailSubject').val('');
+    $('#TxtMailMessage').val('');
 }
