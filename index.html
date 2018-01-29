@@ -584,12 +584,12 @@
                     <!-- /contact -->
                     <!-- contact form -->
                     <div class="col-md-8 col-md-offset-2">
-                        <form class="contact-form">
-                            <input type="text" class="input" placeholder="Nombre">
-                            <input type="email" class="input" placeholder="Email">
-                            <input type="text" class="input" placeholder="Asunto">
-                            <textarea class="input" placeholder="Mensaje"></textarea>
-                            <button class="main-btn">Enviar Mensaje</button>
+                        <form class="contact-form" action="#contact">
+                            <input type="text" class="input" required placeholder="Nombre" id="TxtMailName">
+                            <input type="email" class="input" required placeholder="Email" id="TxtMailEmail">
+                            <input type="text" class="input" required placeholder="Asunto" id="TxtMailSubject">
+                            <textarea class="input" placeholder="Mensaje" id="TxtMailMessage" required></textarea>
+                            <button class="main-btn" id="BtnSendMail">Enviar Mensaje</button>
                         </form>
                     </div>
                     <!-- /contact form -->
@@ -649,6 +649,30 @@
                 <span></span>
             </div>
         </div>
+
+
+         <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Atención</h4>
+        </div>
+        <div class="modal-body">
+          <p id="PmodalAttention"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
         <!-- /Preloader -->
         <!-- jQuery Plugins -->
         <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -656,7 +680,8 @@
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
-
+        <script type="text/javascript" src="./function/smtp.js"></script>
+        <script type="text/javascript" src="./function/SendMail.js"></script>
     </body>
 
 </html>
