@@ -74,7 +74,7 @@ body,
 function done(message) {
     location.href = '#contact';
     $('#myModal').modal("show");
-    $('#PmodalAttention').html("Su Informacion fue enviada correctamente a Brayan López, Prontamente tendras noticias");
+    $('#PmodalAttention').html("Su Información fue enviada correctamente a Brayan López, Prontamente tendras noticias");
     ClearControls();
 }
 );
