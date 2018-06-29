@@ -24,13 +24,22 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BrayanLopez8.github.io", ".
 		SlnRelativePath = "..\BrayanLopez8.github.io\"
 	EndProjectSection
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BotBrayanLopezTest", "..\BotBrayanLopezTest\BotBrayanLopezTest.njsproj", "{FF47D8BD-E5C8-45BC-836C-BD383B0F2904}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0D473B08-B74A-4237-9A6E-A5D06BFA8B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D473B08-B74A-4237-9A6E-A5D06BFA8B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D473B08-B74A-4237-9A6E-A5D06BFA8B26}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D473B08-B74A-4237-9A6E-A5D06BFA8B26}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FF47D8BD-E5C8-45BC-836C-BD383B0F2904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF47D8BD-E5C8-45BC-836C-BD383B0F2904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF47D8BD-E5C8-45BC-836C-BD383B0F2904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF47D8BD-E5C8-45BC-836C-BD383B0F2904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
